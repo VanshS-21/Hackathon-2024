@@ -395,6 +395,7 @@ del{
     color: #333;
 }
 .footer {
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
@@ -536,3 +537,21 @@ del{
         font-size: 12px;
     }
 }
+.footer .latest-tweet {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .latest-tweet span.bi-twitter {
+    font-size: 20px;
+    margin-right: 10px; /* Gap between the icon and text */
+    vertical-align: middle; /* Aligns the icon to the middle of the text */
+}
+
+.footer .latest-tweet span {
+    font-size: 14px;
+    line-height: 1.6;
+    vertical-align: middle; /* Aligns the text to the middle */
+}
+
